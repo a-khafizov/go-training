@@ -1,8 +1,11 @@
 package main
 
-import checkparity "app/train/check-parity"
+import (
+	typeconversion "app/train/type-conversion"
+)
 
 func main() {
 	// calculate.ForMainCalculate()
-	checkparity.ForMainCheckParity()
+	// checkparity.ForMainCheckParity()
+	typeconversion.ForMainTypeConversion()
 }
