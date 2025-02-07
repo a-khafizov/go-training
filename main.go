@@ -1,11 +1,12 @@
 package main
 
 import (
-	typeconversion "app/train/type-conversion"
+	stringcomparison "app/train/string-comparison"
 )
 
 func main() {
 	// calculate.ForMainCalculate()
 	// checkparity.ForMainCheckParity()
-	typeconversion.ForMainTypeConversion()
+	// typeconversion.ForMainTypeConversion()
+	stringcomparison.ForMainStringComparsion()
 }
