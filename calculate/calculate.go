@@ -16,7 +16,7 @@ func ForMainCalculate() {
 		return
 	}
 
-	result, err := Calculate(num1, num2, op)
+	result, err := calculate(num1, num2, op)
 	if err != nil {
 		fmt.Println("Ошибка:", err)
 		return
@@ -25,7 +25,7 @@ func ForMainCalculate() {
 	}
 }
 
-func Calculate(num1, num2 float64, op string) (float64, error) {
+func calculate(num1, num2 float64, op string) (float64, error) {
 	switch op {
 	case "+":
 		return num1 + num2, nil
